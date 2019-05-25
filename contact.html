@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Scriptex - Home</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="logo.png">
+                </div>
+                <ul>
+                    <li><b><a href="index.html">HOME</a></b></li>
+                    <li><b><a href="about.html">ABOUT</a></b></li>
+                    <li><b><a class="active" href="contact.html">CONTACT</a></b></li>
+                    <li><b><a href="help.html">HELP US</a></b></li>
+                    <li><b><a class="download" href="download.html">DOWNLOAD</a></b></li>
+                </ul>
+            </div>
+            <div class="title">
+                <h1>Contact</h1>
+                <br>
+                <p>You want to know a little bit more about this guy, don't you?</p>
+                <br>
+                <button><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe93-MJ56R6UshOL2Lo1iw0_bS6P-ebKyyYaz8G25C2JNtJSQ/viewform">CONTACT US</a></button>
+            </div>
+        </header>
+    </body>
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+    }
+    header {
+        background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143) 100%);
+        height: 150vh;
+    }
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    ul li {
+        display: inline-block;
+        margin-right: 40px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: rgba(255,255,255,0.75);
+        padding: 5px 0.2px;
+        transition: 0.5s ease;
+    }
+    ul li a:hover {
+        color: rgba(255,255,255,1);
+    }
+    ul li a.active {
+        border-bottom: 2px solid rgba(255,255,255,0.75);
+        color: rgba(255,255,255,0.75);
+    }
+    ul li a.download {
+        border: 1px solid white;
+        padding: 2px 20px;
+        border-radius: 3px;
+        color: white;
+    }
+    ul li a.download:hover {
+        background-color: white;
+        color: purple;
+    }
+    .logo img {
+        float: left;
+        position: absolute;
+        margin-top: 15px;
+        width: 250px;
+        height: 250px;
+    }
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .title {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .title h1 {
+        color: white;
+        font-size: 55px;
+        font-weight: 300;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .title p {
+        color: #ffb8f6;
+        font-size: 18px;
+        text-align: center;
+    }
+    .title button {
+        display: block;
+        margin: auto;
+        border: 3px solid white;
+        border-radius: 10px;
+        width: 300px;
+        height: 100px;
+        font-size: 40px;
+        transition: 0.5s ease;
+        background: transparent;
+    }
+    .title button a {
+        text-decoration: none;
+        transition: 0.5s ease;
+        color: white;
+    }
+    .title button:hover {
+        background-color: white;
+    }
+    .title button a:hover {
+        color: purple;
+    }
+    .image {
+        position: absolute;
+        top: 71%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 0;
+        padding-bottom: 27%;
+    }
+</style>
