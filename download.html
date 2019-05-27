@@ -27,16 +27,27 @@
                 <br>
                 <p>To download it, just extract it, later there will come tutorials on youtube.</p>
                 <br>
-                <p>There will come a tutorial soon about how to update it to.</p>
-                <br>
                 <p>Current stable version: 0.0.1</p>
                 <br>
-                <button><a href="Scriptex.zip">DOWNLOAD</a></button>
+            </div>
+            <div class="buttonsdownload">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <button><a href="Scriptex 0.0.2.zip">Download current stable version</a><p>0.0.2</p></button>
+                <button class="latest"><a href="Scriptex 0.0.2.zip">Download current latest version</a><p>0.0.2</p></button>
+            </div>
+            <div class="versions">
+                <h1>All versions</h1>
+                <p>Version 0.0.2 | 27-5-2019 | <a href="Scriptex 0.0.2.zip">Download</a></p>
+                <p>● Fixed bug that when you don't use multiple functions you can't do a command</p>
+                <br>
+                <p>Version 0.0.1 | 26-5-2019</p>
+                <p>● Release of Scriptex coding language | <a href="Scriptex.zip">Download</a></p>
             </div>
         </header>
     </body>
 </html>
 <style>
+    /* All the CSS of this rapper sjors yeah */
     * {
         margin: 0;
         padding: 0;
@@ -73,7 +84,7 @@
         padding: 2px 20px;
         border-radius: 3px;
         color: white;
-    }
+    } 
     ul li a.download:hover {
         background-color: white;
         color: purple;
@@ -143,5 +154,61 @@
         transform: translate(-50%,-50%);
         height: 0;
         padding-bottom: 27%;
+    }
+    .buttonsdownload {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .buttonsdownload button {
+        text-decoration: none;
+        transition: 0.5s ease;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+        max-width: 200px;
+        min-height: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .buttonsdownload button a {
+        text-decoration: none;
+        transition: 0.5s ease;
+        color: white;
+    }
+    .buttonsdownload button:hover {
+        background-color: #56c95a; 
+    }
+    .buttonsdownload button p {
+        color: #94ef98;
+    }
+    .versions {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .versions h1 {
+        color: white;
+        font-size: 55px;
+        font-weight: 300;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .versions p {
+        color: #ffb8f6;
+        font-size: 18px;
+        text-align: center;
+    }
+    .versions a {
+        color: #4CAF50;
+        font-size: 18px;
+        text-align: center;
     }
 </style>
