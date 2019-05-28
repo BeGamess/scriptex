@@ -1,111 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<HTML>
     <head>
         <title>Scriptex - About</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="main">
-                <div class="logo">
-                    <img src="logo.png">
-                </div>
-                <ul>
-                    <li><b><a href="index.html">HOME</a></b></li>
-                    <li><b><a class="active" href="about.html">ABOUT</a></b></li>
-                    <li><b><a href="contact.html">CONTACT</a></b></li>
-                    <li><b><a href="help.html">HELP US</a></b></li>
-                    <li><b><a class="download" href="download.html">DOWNLOAD</a></b></li>
-                </ul>
-            </div>
-            <div class="title">
-                <h1>About</h1>
-                <br>
-                <p>This coding language is to make everything easier. It is original and easy to learn, just wait until tutorials will release and then you can learn it in minutes!</p>
-            </div>
-        </header>
+        <ul>
+            <li><a href="index.html">Scriptex</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:wreckingjesse@gmail.com">Contact</a></li>
+            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfOpK9qR8ARW3c8KDOXGtthm2GSZJvXdfKjG_mpqjnj9iloMA/viewform">Help us</a></li>
+            <li><a href="download.html">Download</a></li>
+        </ul>
+        <div class="main">
+            <h1>What is Scriptex?</h1>
+            <p><a href="index.html">Scriptex</a> is a coding language to make programming life easier. Everything you want to do, you can do by typing it. Tutorials will come soon.</p>
+            <h1>Why did you make this?</h1>
+            <p>I made <a href="download.html">this</a> to make everything easier for everyone, and I wanted a challenge with programming, I found programming a little boring the last time cause everything was so easy.</p>
+        </div>
     </body>
-</html>
+</HTML>
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: "Montserrat", sans-serif;
-    }
-    header {
-        background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143) 100%);
-        height: 150vh;
-    }
     ul {
-        float: right;
         list-style-type: none;
-        margin-top: 25px;
+        background-color: #00a6ff;
+        height: 50px;
     }
     ul li {
         display: inline-block;
-        margin-right: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     ul li a {
+        color: white;
+        font-size: 2.5em;
         text-decoration: none;
-        color: rgba(255,255,255,0.75);
-        padding: 5px 0.2px;
         transition: 0.5s ease;
     }
     ul li a:hover {
-        color: rgba(255,255,255,1);
-    }
-    ul li a.active {
-        border-bottom: 2px solid rgba(255,255,255,0.75);
-        color: rgba(255,255,255,0.75);
-    }
-    ul li a.download {
-        border: 1px solid white;
-        padding: 2px 20px;
-        border-radius: 3px;
-        color: white;
-    }
-    ul li a.download:hover {
-        background-color: white;
-        color: purple;
-    }
-    .logo img {
-        float: left;
-        position: absolute;
-        margin-top: 15px;
-        width: 250px;
-        height: 250px;
+        color: red;
     }
     .main {
-        max-width: 1200px;
-        margin: auto;
-    }
-    .title {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-    .title h1 {
         color: white;
-        font-size: 55px;
-        font-weight: 300;
-        letter-spacing: -1px;
-        text-align: center;
+        background-color: #00a6ff;
+        height: 300px;
     }
-    .title p {
-        color: #ffb8f6;
-        font-size: 18px;
-        text-align: center;
+    .main p {
+        font-size: 1.5em;
     }
-    .image {
-        position: absolute;
-        top: 71%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        height: 0;
-        padding-bottom: 27%;
+    .main h1 {
+        font-size: 3em;
+    }
+    .main a {
+        color: red;
+        transition: 0.5 ease;
+    }
+    .main a:hover {
+        color: white;
     }
 </style>
