@@ -1,223 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
+<HTML>
     <head>
-        <title>Scriptex - Download</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Scriptex - Home</title>
     </head>
     <body>
-        <header>
-            <div class="main">
-                <div class="logo">
-                    <img src="logo.png">
-                </div>
-                <ul>
-                    <li><b><a href="index.html">HOME</a></b></li>
-                    <li><b><a href="about.html">ABOUT</a></b></li>
-                    <li><b><a href="contact.html">CONTACT</a></b></li>
-                    <li><b><a href="help.html">HELP US</a></b></li>
-                    <li><b><a class="download-active" href="download.html">DOWNLOAD</a></b></li>
-                </ul>
-            </div>
-            <div class="title">
-                <h1>Download</h1>
-                <br>
-                <p>You really want to be a programmer dont you?</p>
-                <br>
-                <p>To download it, just extract it, later there will come tutorials on youtube.</p>
-                <br>
-                <p>Current stable version: 0.0.1</p>
-                <br>
-            </div>
-            <div class="buttonsdownload">
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <button><a href="Scriptex 0.1.0.zip">Download current stable version</a><p>0.1.0</p></button>
-                <button class="latest"><a href="Scriptex 0.1.0.zip">Download current latest version</a><p>0.1.0</p></button>
-            </div>
-            <div class="versions">
-                <h1>All versions</h1>
-                <p>Version 0.1.0 | 28-5-2019 | <a href="Scriptex 0.1.0.zip">Download</a></p>
-                <p>● Remade the entire language</p>
-                <p>● Changed the out to say</p>
-                <p>● Changed end to stop</p>
-                <p>● Changed jump to goto</p>
-                <p>● Added about</p>
-                <p>● Added help</p>
-                <p>● Added exit</p>
-                <p>Version 0.0.2 | 27-5-2019 | <a href="Scriptex 0.0.2.zip">Download</a></p>
-                <p>● Fixed bug that when you don't use multiple functions you can't do a command</p>
-                <br>
-                <p>Version 0.0.1 | 26-5-2019</p>
-                <p>● Release of Scriptex coding language | <a href="Scriptex.zip">Download</a></p>
-            </div>
-        </header>
+        <ul>
+            <li><a href="index.html">Scriptex</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:wreckingjesse@gmail.com">Contact</a></li>
+            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfOpK9qR8ARW3c8KDOXGtthm2GSZJvXdfKjG_mpqjnj9iloMA/viewform">Help us</a></li>
+            <li><a href="download.html">Download</a></li>
+        </ul>
+        <div class="main">
+            <h1>You really want to make programming life easier!</h1>
+            <p>You can find tutorials <a target="blank" href="https://www.youtube.com/channel/UCN51CX16E_1wGptfjNwpqnA?view_as=subscriber">here</a></p>
+            <button><a href="Scriptex 0.1.0">Download current stable version</a><p>0.1.0</p></button>
+            <button><a href="Scriptex 0.1.0">Download current latest version</a><p>0.1.0</p></button>
+            <p>Version 0.1.0 | 28-5-2019 | <a href="Scriptex 0.1.0.zip">Download</a></p>
+            <p>● Remade the entire language</p>
+            <p>● Changed out to say</p>
+            <p>● Changed end to stop</p>
+            <p>● Changed jump to goto</p>
+            <p>● Added about</p>
+            <p>● Added help</p>
+            <p>● Added exit</p>
+            <p>Version 0.0.2 | 27-5-2019 | <a href="Scriptex 0.0.2.zip">Download</a></p>
+            <p>● Fixed bug that when you don't use multiple functions you can't do a command</p>
+            <br>
+            <p>Version 0.0.1 | 26-5-2019</p>
+            <p>● Release of Scriptex coding language | <a href="Scriptex.zip">Download</a></p>
+        </div>
     </body>
-</html>
+</HTML>
 <style>
-    /* All the CSS of this rapper sjors yeah */
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: "Montserrat", sans-serif;
-    }
-    header {
-        background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143) 100%);
-        height: 150vh;
-    }
     ul {
-        float: right;
         list-style-type: none;
-        margin-top: 25px;
+        background-color: #00a6ff;
+        height: 50px;
     }
     ul li {
         display: inline-block;
-        margin-right: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     ul li a {
+        color: white;
+        font-size: 2.5em;
         text-decoration: none;
-        color: rgba(255,255,255,0.75);
-        padding: 5px 0.2px;
         transition: 0.5s ease;
     }
     ul li a:hover {
-        color: rgba(255,255,255,1);
-    }
-    ul li a.active {
-        border-bottom: 2px solid rgba(255,255,255,0.75);
-        color: rgba(255,255,255,0.75);
-    }
-    ul li a.download {
-        border: 1px solid white;
-        padding: 2px 20px;
-        border-radius: 3px;
-        color: white;
-    } 
-    ul li a.download:hover {
-        background-color: white;
-        color: purple;
-    }
-    ul li a.download-active {
-        border: 1px solid white;
-        padding: 2px 20px;
-        border-radius: 3px;
-        background-color: white;
-        color: purple;
-    }
-    .logo img {
-        float: left;
-        position: absolute;
-        margin-top: 15px;
-        width: 250px;
-        height: 250px;
+        color: red;
     }
     .main {
-        max-width: 1200px;
-        margin: auto;
-    }
-    .title {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-    .title h1 {
         color: white;
-        font-size: 55px;
-        font-weight: 300;
-        letter-spacing: -1px;
-        text-align: center;
+        background-color: #00a6ff;
+        height: 950px;
     }
-    .title p {
-        color: #ffb8f6;
-        font-size: 18px;
-        text-align: center;
+    .main p {
+        font-size: 1.5em;
     }
-    .title button {
-        display: block;
-        margin: auto;
-        border: 3px solid white;
-        border-radius: 10px;
-        width: 300px;
-        height: 100px;
-        font-size: 40px;
-        transition: 0.5s ease;
-        background: transparent;
+    .main h1 {
+        font-size: 3em;
     }
-    .title button a {
-        text-decoration: none;
-        transition: 0.5s ease;
+    .main a {
+        color: red;
+        transition: 0.5 ease;
+    }
+    .main a:hover {
         color: white;
     }
-    .title button:hover {
-        background-color: white;
-    }
-    .title button a:hover {
-        color: purple;
-    }
-    .image {
-        position: absolute;
-        top: 71%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        height: 0;
-        padding-bottom: 27%;
-    }
-    .buttonsdownload {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-    .buttonsdownload button {
-        text-decoration: none;
+    .main button {
         transition: 0.5s ease;
         background-color: #4CAF50;
         border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
         display: inline-block;
-        font-size: 16px;
         border-radius: 25px;
         max-width: 200px;
         min-height: 100px;
         margin-right: 10px;
         margin-left: 10px;
+        text-align: center;
+        font-size: 16px;
+        padding: 15px 32px;
     }
-    .buttonsdownload button a {
+    .main button:hover {
+        background-color: #56c95a; 
+    }
+    .main button a {
         text-decoration: none;
         transition: 0.5s ease;
         color: white;
     }
-    .buttonsdownload button:hover {
-        background-color: #56c95a; 
-    }
-    .buttonsdownload button p {
+    .main button p {
         color: #94ef98;
-    }
-    .versions {
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-    .versions h1 {
-        color: white;
-        font-size: 55px;
-        font-weight: 300;
-        letter-spacing: -1px;
-        text-align: center;
-    }
-    .versions p {
-        color: #ffb8f6;
-        font-size: 18px;
-        text-align: center;
-    }
-    .versions a {
-        color: #4CAF50;
-        font-size: 18px;
-        text-align: center;
     }
 </style>
